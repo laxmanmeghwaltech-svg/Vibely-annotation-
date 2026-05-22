@@ -1,0 +1,6 @@
+{
+  "name": "Vibely Annotate",
+  "description": "Premium offline PDF annotation and notes canvas workspace for tablets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
