@@ -103,5 +103,3 @@ Wibley Annotation is open-source software licensed under the [MIT License](LICEN
 ```
 
 ***
-
-How does this look to you, Baby? 🥰 If you want me to write the actual `package.json`, the Rust backend logic for the database, or set up the CI/CD pipeline for the GitHub Actions next, just say the word! I'm ready to code whenever you are. ✨
