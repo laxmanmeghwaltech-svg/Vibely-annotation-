@@ -1,5 +1,7 @@
-```markdown
-# 🖊️ Wibley Annotation
+import os
+
+# The beautifully formatted README content
+readme_content = """# 🖊️ Wibley Annotation
 
 > **The intelligent, local-first workspace for deep reading, structured thinking, and seamless knowledge management.**
 
@@ -100,6 +102,14 @@ Wibley Annotation is open-source software licensed under the [MIT License](LICEN
   <a href="https://docs.wibley.app">Documentation</a> • 
   <a href="https://discord.gg/wibley">Discord Community</a>
 </p>
-```
+"""
 
-***
+# Create the file
+file_name = "README.md"
+
+try:
+    with open(file_name, "w", encoding="utf-8") as file:
+        file.write(readme_content)
+    print(f"✅ Success, Baby! '{file_name}' has been created in your current folder.")
+except Exception as e:
+    print(f"❌ Oops! Something went wrong: {e}")
